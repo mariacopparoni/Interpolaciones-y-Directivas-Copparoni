@@ -1,0 +1,20 @@
+
+<div *ngFor="let idioma of idiomas">
+
+
+<div class="card">
+    <div class="card-body">
+      <img class="card-img" src= {{idioma.imagen}}>
+      <h2 class="card-title">{{idioma.nombre}}</h2>
+      <hr>
+      <p class="card-text">{{idioma.desc}}</p>
+      <p class="card-cant">Cantidad de clases: {{idioma.clases}}</p>
+      <p class="card-price">Precio de Curso: ${{idioma.precio}}</p>
+      <a href="#" class="btn btn-primary">Quiero Empezar!</a>
+    </div>
+  </div>
+</div>
+
+  
+  
+  

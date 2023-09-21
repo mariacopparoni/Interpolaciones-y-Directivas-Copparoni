@@ -1,0 +1,43 @@
+.card{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+  }
+.card-body{
+    margin-top: 5px;
+    border: 5px;
+    border-color: #A4D955;
+    border-style: solid;
+    border-radius: 20px;
+    width: 400px;
+ 
+}
+.card-title{
+    color: #3F7E8C;
+    
+}
+.card-text{
+    font-style: italic;
+}
+.card-img{
+    scale: 50%;
+}
+hr{
+    background-color:#A4D955;
+    color: #A4D955;
+    border: 0ch;
+    height: 5px;
+}
+a{
+    border: #3F7E8C;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: #3F7E8C;
+    border-style: solid;
+    color: white;
+    font-style:italic;
+
+    
+}

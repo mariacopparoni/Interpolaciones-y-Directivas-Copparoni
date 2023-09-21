@@ -1,0 +1,26 @@
+aside {
+  position: fixed;
+  left: 0;
+  background-color: #A4D955;
+  height: calc(100vh - var(--toolbar-height));
+  width: 200px;
+}
+ul{
+  margin-top: 10px;
+  line-height: 40px;
+  font-size: large;
+  list-style: none;
+  
+}
+#enlace{
+  color: #3F7E8C;
+  background-color: #E0F2C4;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E0F2C4;
+}
+#enlace a:hover {
+  color:#E0F2C4;
+  background-color: #3F7E8C;
+}
