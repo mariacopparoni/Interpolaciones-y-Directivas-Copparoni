@@ -8,9 +8,10 @@ import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { PageWrapperComponent } from './page-wrapper/page-wrapper.component';
 import { CardComponent } from './card/card.component';
+import { ListaDeUsuariosComponent } from './lista-de-usuarios/lista-de-usuarios.component';
 
 @NgModule({
-  declarations: [AppComponent, ToolbarComponent, FooterComponent, SidebarComponent, PageWrapperComponent, CardComponent],
+  declarations: [AppComponent, ToolbarComponent, FooterComponent, SidebarComponent, PageWrapperComponent, CardComponent, ListaDeUsuariosComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,7 +1,27 @@
 h1 {
-  color: blue;
+  color:#E0F2C4;
+  background-color: #3F7E8C;
+  background-blend-mode: lighten;
+  width:min-content;
+  border: #3F7E8C;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
 }
 app-page-wrapper {
   background-color: red;
   line-height: 30px;
+}
+p{
+  font-style: italic;
+  text-shadow: 1px 1px 2px white, 0 0 25px #E0F2C4, 0 0 35px white;
+}
+img{
+  display: block;
+  width: 80px;
+  right: 30px;
+  position:fixed;
+//justify-content: flex-end;
+
+float: right;
 }

@@ -1,0 +1,24 @@
+<!--<ul>
+    <li
+      [ngStyle]="{ backgroundColor: alumno.aprobado ? '#A4D955' : '#E75151' }"
+      *ngFor="let alumno of alumnos"
+    >
+      {{alumno.apellido | uppercase }}, {{ alumno.nombre }} -> {{ alumno.idioma | uppercase }}
+    </li>
+</ul>-->
+<table>
+  <thead>
+      <tr>
+          <th>Alumno</th>
+          <th>Idioma</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr 
+      [ngStyle]="{ backgroundColor: alumno.aprobado ? '#A4D955' : '#E75151' }"
+      *ngFor="let alumno of alumnos">
+          <td>{{alumno.apellido | uppercase }}, {{ alumno.nombre }}</td>
+          <td>{{ alumno.idioma | uppercase }}</td>
+      </tr>
+  </tbody>
+</table>

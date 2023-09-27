@@ -1,0 +1,28 @@
+li{
+    list-style: none;
+}
+ul{
+width: 50%;
+}
+table{
+    border-color: #3F7E8C;
+    border-width: 3px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+th{
+    border-color: #3F7E8C;
+    border-width: 3px;
+    border-style: solid;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+th, td {
+    padding: 15px;
+        //border-bottom: 1px solid  ;
+  }
+td{
+    text-align: left;
+}
